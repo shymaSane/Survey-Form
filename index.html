@@ -12,12 +12,24 @@
                 <p id = "description">Let us know how we can improve our product</p>
                 <form id = "survey-form">
                     <fieldset>
-                        <label for = "Name" id="name-label">*Name:</label>
-                        <input type = "text" id = "name" name = "name" placeholder="Enter your name" required>
-                        <label for = "Name" id="email-label">*Email:</label>
-                        <input type = "email" id = "email" name = "email" placeholder="Enter your email" required>
-                        <label for = "Name" id="number-label">*Age:</label>
-                        <input type = "number" id = "number" name = "age" placeholder="Enter your age" required min = "18" max = "90">
+                        <div id = "contact-info">
+                            <label for = "Name" id="name-label">*Name:</label>
+                            <input type = "text" id = "name" name = "name" placeholder="Enter your name" required>
+                            <label for = "Name" id="email-label">*Email:</label>
+                            <input type = "email" id = "email" name = "email" placeholder="Enter your email" required>
+                            <label for = "Name" id="number-label">*Age:</label>
+                            <input type = "number" id = "number" name = "age" placeholder="Enter your age" required min = "18" max = "90">
+                        </div>
+                        <div id = "job-info">
+                            <label for = "role" id = "role-label">Which option best describes your current role?</label>
+                            <select name = "job" id = "dropdown">
+                                <option disabled value>please choose an option</option>
+                                <option value = "student" selected>student</option>
+                                <option value = "full-time-job">full time job</option>
+                                <option value = "full-time-learner">full time learner</option>
+                                <option value = "other">other</option>
+                            </select>
+                        </div>
                     </fieldset>
                 </form>
             </section>
