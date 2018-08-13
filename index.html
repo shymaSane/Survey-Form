@@ -30,6 +30,32 @@
                                 <option value = "other">other</option>
                             </select>
                         </div>
+                        <div>
+                            <label for = "recommendation" id = "recommendation">* How likely is that you would recommend our product to a friend?</label>
+                            <input type="radio" name="recommendation-value" value="definitely"> Definitely<br>
+                            <input type="radio" name="recommendation-value" value="maybe"> Maybe<br>
+                            <input type="radio" name="recommendation-value" value="not-sure"> Not sure<br>
+                        </div>
+                        <div id = "prefered-products">
+                            <label for = "prefered-products" id = "prefered-label">What do you like most in our products:</label>
+                            <select name = "products" id = "products-dropdown">
+                                <option disabled value selected>please choose an option</option>
+                                <option value = "challenges">Challenges</option>
+                                <option value = "projects">Projects</option>
+                                <option value = "community">Community</option>
+                                <option value = "open-source">Open Source</option>
+                            </select>
+                        </div>
+                        <div id = "improvement-info">
+                            <label for = "improvement-checks" id = "imporvement-label">Things that should be improved in the future (Check all that apply):</label>
+                            <input type="checkbox" name="webfields" value="front-end"> Front-end Projects<br>
+                            <input type="checkbox" name="webfields" value="front-end"> Back-end Projects<br>
+                            <input type="checkbox" name="webfields" value="front-end"> Data Visualization<br>
+                            <input type="checkbox" name="webfields" value="front-end"> Challenges<br>
+                            <input type="checkbox" name="webfields" value="front-end"> Open Source Community<br>
+                            <input type="checkbox" name="webfields" value="front-end"> Gitter help rooms<br>
+                            <input type="checkbox" name="webfields" value="front-end"> Videos<br>
+                        </div>
                     </fieldset>
                 </form>
             </section>
